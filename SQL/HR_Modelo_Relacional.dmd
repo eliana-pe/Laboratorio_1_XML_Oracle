@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="HR_Modelo_Relacional" id="35074FD4-A466-842C-F25A-7A98186FC061" version="3.5">
+<createdBy>HP</createdBy>
+<createdTime>2026-11-06 16:17:41 UTC</createdTime>
+<ownerDesignName>HR_Modelo_Relacional</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>35074FD4-A466-842C-F25A-7A98186FC061</designId>
+</OSDM_Design>

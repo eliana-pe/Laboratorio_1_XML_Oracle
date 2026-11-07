@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="SECURE_EMPLOYEES" directorySegmentName="seg_0" id="E3E8B8D2-1880-61EB-FEEF-68F2D47A5FA0">
+<sourceConnName>HR_Local_XE</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>SECURE_EMPLOYEES</sourceObjName>
+<createdBy>HP</createdBy>
+<createdTime>2026-11-06 16:24:04 UTC</createdTime>
+<ownerDesignName>HR_Modelo_Relacional</ownerDesignName>
+<actions>INSERT, UPDATE, DELETE</actions>
+<body><![CDATA[BEGIN
+  secure_dml;
+END secure_employees;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<owner>ED28C9E0-D909-E803-D40B-86A8919F5E70</owner>
+<scope>FOR EACH STATEMENT</scope>
+<table>36DDB629-9EB8-5A04-0C73-4714384B7155</table>
+</TriggerOraclev10g>

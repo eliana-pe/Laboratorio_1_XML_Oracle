@@ -1,0 +1,132 @@
+<ReporteEmpleados>
+  <Empleado IdEmpleado="100">
+    <Nombre>Steven</Nombre>
+    <Apellido>King</Apellido>
+    <Salario>24000</Salario>
+    <Departamento>
+      <IdDepartamento>90</IdDepartamento>
+      <NombreDepartamento>Executive</NombreDepartamento>
+    </Departamento>
+    <Cargo>
+      <IdCargo>AD_PRES</IdCargo>
+      <NombreCargo>President</NombreCargo>
+    </Cargo>
+  </Empleado>
+  <Empleado IdEmpleado="101">
+    <Nombre>Neena</Nombre>
+    <Apellido>Kochhar</Apellido>
+    <Salario>17000</Salario>
+    <Departamento>
+      <IdDepartamento>90</IdDepartamento>
+      <NombreDepartamento>Executive</NombreDepartamento>
+    </Departamento>
+    <Cargo>
+      <IdCargo>AD_VP</IdCargo>
+      <NombreCargo>Administration Vice President</NombreCargo>
+    </Cargo>
+  </Empleado>
+  <Empleado IdEmpleado="102">
+    <Nombre>Lex</Nombre>
+    <Apellido>De Haan</Apellido>
+    <Salario>17000</Salario>
+    <Departamento>
+      <IdDepartamento>90</IdDepartamento>
+      <NombreDepartamento>Executive</NombreDepartamento>
+    </Departamento>
+    <Cargo>
+      <IdCargo>AD_VP</IdCargo>
+      <NombreCargo>Administration Vice President</NombreCargo>
+    </Cargo>
+  </Empleado>
+  <Empleado IdEmpleado="103">
+    <Nombre>Alexander</Nombre>
+    <Apellido>Hunold</Apellido>
+    <Salario>9000</Salario>
+    <Departamento>
+      <IdDepartamento>60</IdDepartamento>
+      <NombreDepartamento>IT</NombreDepartamento>
+    </Departamento>
+    <Cargo>
+      <IdCargo>IT_PROG</IdCargo>
+      <NombreCargo>Programmer</NombreCargo>
+    </Cargo>
+  </Empleado>
+  <Empleado IdEmpleado="104">
+    <Nombre>Bruce</Nombre>
+    <Apellido>Ernst</Apellido>
+    <Salario>6000</Salario>
+    <Departamento>
+      <IdDepartamento>60</IdDepartamento>
+      <NombreDepartamento>IT</NombreDepartamento>
+    </Departamento>
+    <Cargo>
+      <IdCargo>IT_PROG</IdCargo>
+      <NombreCargo>Programmer</NombreCargo>
+    </Cargo>
+  </Empleado>
+  <Empleado IdEmpleado="105">
+    <Nombre>David</Nombre>
+    <Apellido>Austin</Apellido>
+    <Salario>4800</Salario>
+    <Departamento>
+      <IdDepartamento>60</IdDepartamento>
+      <NombreDepartamento>IT</NombreDepartamento>
+    </Departamento>
+    <Cargo>
+      <IdCargo>IT_PROG</IdCargo>
+      <NombreCargo>Programmer</NombreCargo>
+    </Cargo>
+  </Empleado>
+  <Empleado IdEmpleado="106">
+    <Nombre>Valli</Nombre>
+    <Apellido>Pataballa</Apellido>
+    <Salario>4800</Salario>
+    <Departamento>
+      <IdDepartamento>60</IdDepartamento>
+      <NombreDepartamento>IT</NombreDepartamento>
+    </Departamento>
+    <Cargo>
+      <IdCargo>IT_PROG</IdCargo>
+      <NombreCargo>Programmer</NombreCargo>
+    </Cargo>
+  </Empleado>
+  <Empleado IdEmpleado="107">
+    <Nombre>Diana</Nombre>
+    <Apellido>Lorentz</Apellido>
+    <Salario>4200</Salario>
+    <Departamento>
+      <IdDepartamento>60</IdDepartamento>
+      <NombreDepartamento>IT</NombreDepartamento>
+    </Departamento>
+    <Cargo>
+      <IdCargo>IT_PROG</IdCargo>
+      <NombreCargo>Programmer</NombreCargo>
+    </Cargo>
+  </Empleado>
+  <Empleado IdEmpleado="108">
+    <Nombre>Nancy</Nombre>
+    <Apellido>Greenberg</Apellido>
+    <Salario>12008</Salario>
+    <Departamento>
+      <IdDepartamento>100</IdDepartamento>
+      <NombreDepartamento>Finance</NombreDepartamento>
+    </Departamento>
+    <Cargo>
+      <IdCargo>FI_MGR</IdCargo>
+      <NombreCargo>Finance Manager</NombreCargo>
+    </Cargo>
+  </Empleado>
+  <Empleado IdEmpleado="109">
+    <Nombre>Daniel</Nombre>
+    <Apellido>Faviet</Apellido>
+    <Salario>9000</Salario>
+    <Departamento>
+      <IdDepartamento>100</IdDepartamento>
+      <NombreDepartamento>Finance</NombreDepartamento>
+    </Departamento>
+    <Cargo>
+      <IdCargo>FI_ACCOUNT</IdCargo>
+      <NombreCargo>Accountant</NombreCargo>
+    </Cargo>
+  </Empleado>
+</ReporteEmpleados>

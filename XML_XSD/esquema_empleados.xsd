@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- LABORATORIO 1 - BASES DE DATOS AVANZADAS -->
+<!-- Esquema XSD para validar empleados de Oracle HR -->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Tipo de texto obligatorio -->
+  <xs:simpleType name="TextoObligatorio">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Tipo de salario no negativo -->
+  <xs:simpleType name="SalarioValido">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Elemento principal -->
+  <xs:element name="ReporteEmpleados">
+    <xs:complexType>
+      <xs:sequence>
+
+        <xs:element name="Empleado"
+                    minOccurs="1"
+                    maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+
+              <xs:element name="Nombre"
+                          type="TextoObligatorio"/>
+
+              <xs:element name="Apellido"
+                          type="TextoObligatorio"/>
+
+              <xs:element name="Salario"
+                          type="SalarioValido"/>
+
+              <xs:element name="Departamento">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="IdDepartamento"
+                                type="xs:positiveInteger"/>
+                    <xs:element name="NombreDepartamento"
+                                type="TextoObligatorio"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="Cargo">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="IdCargo"
+                                type="TextoObligatorio"/>
+                    <xs:element name="NombreCargo"
+                                type="TextoObligatorio"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+            </xs:sequence>
+
+            <xs:attribute name="IdEmpleado"
+                          type="xs:positiveInteger"
+                          use="required"/>
+
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
